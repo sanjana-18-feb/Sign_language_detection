@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Scratch / large data (keep the repo small)
+*.parquet
+android_export/
+
+# The nested clone that came with the folder
+Sign_language_detection/
+
+# Android build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.iml
+.idea/
+
+# Downloaded build artifacts
+apk_download/
+*.apk
+
+# OS
+.DS_Store
